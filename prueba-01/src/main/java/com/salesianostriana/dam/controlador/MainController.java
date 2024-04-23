@@ -9,13 +9,7 @@ public class MainController {
 
 	@GetMapping("/")
 	public String holaMundo(Model model) {
-		model.addAttribute("mensaje", "Hola mundo");
-		return "inicio";
-	}
-
-	@GetMapping("/")
-	public String alagos(Model model) {
-		model.addAttribute("mensaje2", "Angel y Luismi los mejores profesores de todo salesianos ");
+		model.addAttribute("mensaje", "Luismi y Ángel los mejores");
 		return "inicio";
 	}
 
